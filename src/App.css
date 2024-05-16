@@ -1,0 +1,79 @@
+body{
+  background-color: rgb(99, 94, 94);
+}
+
+#MyBox{
+  background-color:#40A578;
+  border: none;
+  border: solid black 2px;
+}
+
+#buttons{
+  margin:5px;
+}
+
+input::-webkit-input-placeholder {
+  color: black; /* Set your desired placeholder color */
+  opacity: 0.2;  /* Adjust between 0 (transparent) and 1 (opaque) */
+}
+
+.TextData{
+  border: solid black 2px;
+}
+.TextData,#previewBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color:#E6FF94;
+  padding: 5px;
+  padding-left: 20px;
+  align-items: center;
+  border-radius:10px ;
+  width: calc(100%-10px);
+}
+
+.ButtonsToBeClicked {
+
+  width: 50%;
+  margin: 2px auto;
+  background-color: #006769;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid black 2px;
+}
+
+.preview{
+  background-color:#9DDE8B;
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 15px;
+  border: solid black 2px;
+}
+
+
+.ButtonOnTheBar,button {
+  margin: 5px;
+  display: flex;
+  max-width:max-content;
+  border: none;
+  border-radius: 10px;
+}
+
+button{
+  background-color: rgb(2, 188, 235);
+  border: solid black 2px;
+  padding: 5px;
+}
+
+#previewBox {
+  border: none;
+  width: 100%;
+  word-wrap: nowrap;
+ 
+}
+
+#previewButton{
+  border-radius: 20px;
+  font-size:small;
+}
